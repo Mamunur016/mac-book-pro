@@ -59,14 +59,14 @@ document.getElementById('promo-button').addEventListener('click', function () {
     promoText = promoInput.value;
 
     if (promoText == 'stevekaku') {
-        const total = getInputValue('total-cost');
-        const discountAmount = total - ((total * 20) / 100);
-        paymentPrice(discountAmount);
+        const totalAmount = getInputValue('total-cost');
+        const afterDiscountTotalAmount = totalAmount - ((totalAmount * 20) / 100);
+        paymentPrice(afterDiscountTotalAmount);
 
     }
     else {
-        const total = getInputValue('total-cost');
-        paymentPrice(total);
+        const totalAmount = getInputValue('total-cost');
+        paymentPrice(totalAmount);
     }
     // clear input filed
     promoInput.value = '';
