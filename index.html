@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro</title>
+
+
+
+    <!-- Bootstrap CSS only -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main id="main-section " class="container">
+
+        <div class="row pt-4 ">
+
+            <div class="col-md-5 mac">
+                <img class="img-fluid " src="images/mac.png" alt="">
+            </div>
+
+            <div class="col-md-7">
+                <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente repudiandae rerum,
+                    delectus quibusdam hic explicabo perspiciatis quo assumenda adipisci veniam nobis ab
+                    exercitationem porro, reprehenderit omnis facere vero sit.</p>
+
+                <!-- memory  area  -->
+                <div class="py-4">
+                    <h6>Memory</h6>
+                    <button type="button" class="btn btn-outline-secondary" id="8gb-memory">8GB unifield memory</button>
+                    <button type="button" class="btn btn-outline-secondary" id="16gb-memory">16GB unifield
+                        memory</button>
+                </div>
+
+
+                <!-- storage area -->
+                <div class="py-4">
+                    <h6>Storage</h6>
+                    <button type="button" class="btn btn-outline-secondary" id="256gb-ssd">256GB SSD storage</button>
+                    <button type="button" class="btn btn-outline-secondary" id="512gb-ssd">512GB SSD
+                        storage</button>
+                    <button type="button" class="btn btn-outline-secondary" id="1tb-ssd">1TB SSD storage</button>
+                </div>
+
+                <!-- deliver area -->
+                <div class="py-4">
+                    <h6>Choose your delivery option</h6>
+                    <button type="button" class="btn btn-outline-secondary" id="delivery-free">Feiday, Aug 25 FREE Prime
+                        Delivery</button>
+                    <button type="button" class="btn btn-outline-secondary" id="delivery-charge">Feiday, Aug 21 Delivery
+                        Charge
+                        $20</button>
+                </div>
+
+
+                <!-- display total price table section area -->
+                <div class="col-md-6 py-4">
+                    <table class="table">
+
+                        <tbody>
+                            <tr>
+
+                                <td>Best price</td>
+                                <td>$ <span id="base-cost">1299</span></td>
+
+                            </tr>
+                            <tr>
+                                <td>Extra memory cost</td>
+                                <td>$ <span id="memory-cost">0</span></td>
+                            </tr>
+                            <tr>
+                                <td>Extra storage cost</td>
+                                <td>$ <span id="storage-cost">0</span></td>
+                            </tr>
+                            <tr class="thick-line">
+
+                                <td>Delivery Charge</td>
+                                <td>$ <span id="delivery-cost">0</span></td>
+
+                            </tr>
+                            <div class="no-line">
+                                <td>Total price</td>
+                                <td>$ <span id="total-cost">0</span></td>
+                            </div>
+
+                        </tbody>
+                    </table>
+
+
+                    <!-- promo code area -->
+                    <h6>Add promo code</h6>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="promo code" id="promo-input">
+                        <button class="btn btn-danger" type="button" id="promo-button">Apply</button>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+            </div>
+            <hr>
+
+        </div>
+
+        <div class="text-center">
+            <h1>Total: $ <span id="total-payment">0</span></h1>
+            <br>
+        </div>
+
+    </main>
+
+    <!-- bootstrap js link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
