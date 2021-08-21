@@ -1,8 +1,10 @@
+/* image  */
+.mac-img img{
+    width: 600px;
+}
 
+/* table-row specific element */
 .thick-line {
     border-bottom: 2px solid gray;
     
-}
-.mac img{
-    width: 600px;
 }
